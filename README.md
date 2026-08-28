@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div >
  <br />
   <div align="center" >
@@ -476,3 +477,6 @@ export { flavorlists, nutrientLists, cards };
 Join the community and connect with other developers!
 
 [![Discord](https://img.shields.io/discord/your-server-id?label=Join%20Discord&logo=discord&style=for-the-badge&color=5865F2)](https://discord.gg/cbtfr4BHF9)
+=======
+# Coming Soon...
+>>>>>>> e555b7613c29f7eeb2590067c147d2be03ec1488
