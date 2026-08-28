@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 <div >
- <br />
-  <div align="center" >
-   <a href="https://youtu.be/pqYxZ8jd768" target="_blank">
-     <img  src="public/images/Final.png" style="border-radius:10px;"  alt="Project Banner">
-   </a></div>
- <br />
- <br />
-
+ 
  <div>
    <img src="https://img.shields.io/badge/-React_JS_V19-black?style=for-the-badge&logoColor=white&logo=react&color=007ACC" alt="react.js" />
    <img src="https://img.shields.io/badge/-Tailwind_CSS_v4-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=030712" alt="tailwindcss" />
@@ -31,7 +23,6 @@
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets (Code to Copy)](#snippets)
 6. 🔗 [Assets](#links)
-7. 🌐 [Community](#more)
 
 ## Introduction
 
@@ -472,11 +463,3 @@ export { flavorlists, nutrientLists, cards };
 - 📚 Fonts: [`/public/fonts`](https://github.com/Fullstack-Empire/GSAP-Awwwards-Website/tree/main/public/fonts)
 - 🖼️ Images: [`/public/images`](https://github.com/Fullstack-Empire/GSAP-Awwwards-Website/tree/main/public/images)
 
-## Community
-
-Join the community and connect with other developers!
-
-[![Discord](https://img.shields.io/discord/your-server-id?label=Join%20Discord&logo=discord&style=for-the-badge&color=5865F2)](https://discord.gg/cbtfr4BHF9)
-=======
-# Coming Soon...
->>>>>>> e555b7613c29f7eeb2590067c147d2be03ec1488
