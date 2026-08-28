@@ -61,24 +61,24 @@ body::-webkit-scrollbar {
   }
 
   .hero-container {
-    @apply relative bg-milk w-screen min-h-dvh overflow-hidden flex flex-col justify-center items-center;
+    @apply relative bg-milk w-screen h-dvh overflow-hidden;
 
     .hero-content {
-      @apply relative z-10 w-full flex flex-col justify-center items-center py-12;
+      @apply relative z-10 w-full h-full flex flex-col 2xl:justify-center items-center translate-y-10 2xl:pt-0 md:pt-32 pt-24;
 
       .hero-title {
-        @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] mb-3.5;
+        @apply text-dark-brown 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold uppercase leading-[9vw] tracking-[-.35vw] 2xl:mb-0 mb-5;
       }
 
       .hero-text-scroll {
-        @apply rotate-[-3deg] mb-6 border-[.5vw] border-milk;
+        @apply rotate-[-3deg] mb-8 border-[.5vw] border-milk;
 
         .hero-subtitle {
           @apply bg-mid-brown;
         }
 
         h1 {
-          @apply uppercase 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold text-[#fce1cd] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-6 2xl:py-0 py-3;
+          @apply uppercase 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold text-[#fce1cd] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-5 2xl:py-0 py-3;
         }
       }
 
@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
       }
 
       .hero-button {
-        @apply md:mt-8 mt-6 text-dark-brown bg-light-brown uppercase font-bold text-lg rounded-full md:p-5 p-3 md:px-16 px-10;
+        @apply md:mt-16 mt-10 text-dark-brown bg-light-brown uppercase font-bold text-lg rounded-full md:p-5 p-3 md:px-16 px-10;
       }
     }
   }
@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
     }
 
     .msg-text-scroll {
-      @apply rotate-[-3deg] 2xl:translate-y-5 -translate-y-0 absolute z-10 border-[.5vw] border-[#7f3b2d];
+      @apply rotate-[3deg] 2xl:translate-y-5 -translate-y-5 absolute z-10 border-[.5vw] border-[#7f3b2d];
     }
   }
 
@@ -188,6 +188,7 @@ body::-webkit-scrollbar {
       }
     }
   }
+
   .benefit-section {
     @apply min-h-dvh bg-[#222123] overflow-hidden relative;
 
@@ -281,17 +282,3 @@ body::-webkit-scrollbar {
     transform: rotate(360deg);
   }
 }
-
-/* Adicione esta regra ao final do index.css */
-/* .first-message,
-.second-message {
-  word-break: normal;
-  overflow-wrap: break-word;
-} */
-
-/* Força espaço entre as palavras criadas pelo SplitText */
-/* .first-message div,
-.second-message div {
-  display: inline-block !important;
-  margin-right: 0.05em; /* Garante o espaço visual entre palavras */
-/*} */
