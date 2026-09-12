@@ -1,5 +1,4 @@
 <div >
- 
  <div>
    <img src="https://img.shields.io/badge/-React_JS_V19-black?style=for-the-badge&logoColor=white&logo=react&color=007ACC" alt="react.js" />
    <img src="https://img.shields.io/badge/-Tailwind_CSS_v4-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=030712" alt="tailwindcss" />
@@ -8,6 +7,8 @@
  </div>
 
  <h3 style="font-weight:700;font-size:30px;">AWWWARDS Site of the Day Website</h3>
+
+  ![banner](https://i.imgur.com/iCsac5k.jpeg)
 
   <div >
     Ready to build a website that has won an Awwwards Site of the Day?
@@ -50,7 +51,7 @@ In this course, You’ll learn how to:
 
 ```bash
 # 1. Clone the repo
-git clone [https://github.com/FullStackEmpire/gsap-awwwards-website.git](https://github.com/FullStackEmpire/gsap-awwwards-website.git)
+git clone [https://github.com/Mkael-doug/gsap-awwwards.git](https://github.com/Mkael-doug/gsap-awwwards.git)
 
 # 2. Install dependencies
 npm install
